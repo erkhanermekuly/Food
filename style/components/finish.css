@@ -1,0 +1,89 @@
+.finish{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    padding-left: 70px;
+    background-color: #d20b55;
+}
+
+.one{
+    margin-top: 30px;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.one a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    transition: .4s;
+}
+.one a:hover{
+    color: #000;
+}
+.one h1{
+    color: #fff;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+
+.two h1{
+    margin-top: 30px;
+    color: #fff;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+.two a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    transition: .4s;
+}
+.two a:hover{
+    color: #000;
+}
+
+
+.three{
+    display: inline;
+    margin-top: 30px;
+}
+.three h1{
+    color: #fff;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+.three h2{
+    margin-top: 80px;
+    color: #fff;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+.three i{
+    color: #fff;
+    margin-top: 10px;
+    width: 30px;
+    border-radius: 100%;
+}
+
+
+
+.four{ 
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background-color: #d20b55;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}

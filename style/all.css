@@ -1,0 +1,24 @@
+
+@import url(vendor/reset.css);
+@import url(components/header.css);
+@import url(components/main.css);
+@import url(components/soz.css);
+@import url(components/nav.css);
+@import url(components/service.css);
+@import url(components/icons.css);
+@import url(components/service_2.css);
+@import url(components/hero.css);
+@import url(components/knopka.css);
+@import url(components/three_blok.css);
+@import url(components/emblems.css);
+@import url(components/finish.css);
+@import url(components/adaptive.css);
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}

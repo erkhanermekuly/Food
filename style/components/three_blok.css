@@ -1,0 +1,79 @@
+.H1{
+    font-size: 40px;
+    margin: 0 0 25px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color:#d20b55 ;
+    text-align: center;
+    font-weight: 600;
+}
+
+
+.three_blok{
+    gap: 30px;
+    margin: 0 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.three_blok img{
+    border-radius: 0 50px 0 0;
+    width: 422px;
+    height: 265px;
+}
+
+.day{
+    border-radius: 0 0 0 50px;
+    padding-top: 40px;
+    background-color: #f5f4f4;
+}
+.day a:first-child{
+    margin-left: 60%;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 18px;
+    color: #000;
+    margin-bottom: 30px;
+}
+.day a:first-child:hover{
+    color: #d20b55;
+}
+.day a{
+    margin-top: 10px;
+    text-decoration: none;
+    color: #000;
+    margin-left: 20%;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.day a:hover{
+    color:#d20b55;
+}
+.day p{
+    margin: 15px 0 0 0;
+    line-height: 26px;
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.day button{
+    font-weight: 400;
+    padding: 10px 30px;
+    color: #fff;
+    text-shadow: none;
+    background-color: #d20b55;
+    text-transform: capitalize;
+    outline: none;
+    border: none;
+    border-radius: 80px;
+    margin-left: 35%;
+    margin-top: 10px;
+    transition: .8s;
+    margin-bottom: 20px;
+}
+.day button:hover{
+    background-color: #000;
+}
+

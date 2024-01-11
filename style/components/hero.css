@@ -1,0 +1,161 @@
+.slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+/* Стили для кнопки "Влево" */
+#prevArrow {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Стили для кнопки "Вправо" */
+#nextArrow {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+
+.hero{
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+    cursor: pointer;
+}
+
+.hero_left {
+    background-image: url(../../image/hero_left.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 30%;
+    padding: 10%;
+    border-radius: 0 30px 30px 0; 
+}
+.hero_left h1{
+    position: absolute;
+    top: 60px;
+    left: 30px;
+    color: #D40000;
+    font-size: 24px;
+    text-align: center;
+    border: 3px solid #D40000;
+    border-radius: 50%;
+    height: 30%;
+    width:10%;
+    padding: 26px 0;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.hero_left h2{
+    font-size: 26px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    text-align: right;
+    margin-left: 60% ;
+    width: 100%;
+}
+.hero_left p{
+    font-size: 18px;
+    margin-top: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    margin-left: 68%;
+    width: 100%;
+}
+
+
+.hero_center {
+    background-image: url(../../image/hero_center.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 60%;
+    height: 60%;
+    padding: 12%;
+    border-radius: 0 30px 0 30px;
+}
+.hero_center h1{
+    font-family: 'Ribeye Marrow', cursive;
+    color: #fff;
+    font-size: 40px;
+    text-align: right;   
+}
+.hero_center h2{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    text-align: right;
+    margin-top: 5px;
+}
+.hero_center p{
+    margin-top: 5px;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 40%;
+}
+
+
+.hero_right{
+    background-image: url(../../image/hero_right.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30%;
+    padding: 10%;
+    border-radius: 30px 0 0 30px;
+}
+.hero_right h1{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    width: 200px;
+    margin-right: 50px;
+    width: 250px;
+}
+.hero_right h2{
+    color: #d20b55;
+    font-weight: 600;
+    opacity: 80%;
+    line-height: initial;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    margin-top: 10px;
+    width: 100px;
+}
+.hero_right h3{
+    font-size: 20px;
+    color: #d20b55;
+    font-weight: 500;
+    margin-top: 10px;
+    width: 200px;
+    font-weight: 500;
+}

@@ -1,0 +1,60 @@
+.service{
+    padding: 0 30px;
+}
+
+.service img{
+    margin: 0 10%;
+    display: flex;
+    margin-top: 30px;
+    gap: 30px;
+    flex-wrap: wrap;
+    width: 100%;
+    border-radius: 10%;
+}
+
+.parrent1 img{
+    width: 90%;
+    height: 90%;
+}
+
+.parrent2 img{
+    width: 90%;
+    height: 90%;
+}
+
+.parrent1{
+    display: flex;
+    margin-bottom: 50px;
+    gap: 30px;
+}
+
+.parrent2{
+    padding-bottom: 30px;
+    display: flex;
+    gap: 40px;
+}
+
+.parrent1 i{
+    text-align: center;
+}
+
+.child{
+    padding-top: 10px;
+}
+
+.child a{
+    margin-left: 15%;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+}
+
+.child h3{
+    padding: 8px 40px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+

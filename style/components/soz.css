@@ -1,0 +1,9 @@
+.soz{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #d20b55 ;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 50px;
+}

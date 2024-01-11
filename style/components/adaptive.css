@@ -1,0 +1,150 @@
+@media (max-width: 1082px){
+
+    .header{
+        width: 160%;
+    }
+    .header_left{
+        width: 160%;
+        
+    }
+    .header_right{
+        width: 160%;
+    }
+    .container_left img{
+        display: none;
+    }
+    .container_center{
+        margin-left: 15%;
+        margin-top: 10px;
+    }
+}
+
+
+@media (max-width: 815px) {
+    .container_right{
+        margin-top: 10px;
+    }
+    .container_center{
+        margin-left: 30%;
+        margin-top: 10px;
+    }
+    
+    .main img{
+        width: 160%;
+    }
+}
+
+@media (max-width: 646px) {
+    .container_center{
+        display: none;
+    }
+    .container{
+        width:  90%;
+    }
+    
+    .soz h3{
+        width: 120%;
+    }
+    .soz{
+        padding-left: 50%;
+        width: 120%;
+    }
+
+    .nav{
+        padding-left: 50%;
+    }
+
+    
+.service_item img{
+    border-radius: 100%;
+    width: 90%;
+    height: 50%;
+    
+}
+.service_item{
+    width: 27%;
+}
+.service_item2 {
+    width: 24%;
+}
+.service_item2 img{
+    border-radius: 100%;
+    width: 90%;
+    height: 50%;
+}
+
+.icons{
+    display: none;
+}
+
+.service_2{
+    margin-left: 35%;
+}
+.service_2 img{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.hero{
+    display: none;
+}
+
+.knopka{
+    width: 100%;
+    margin-left: 35%;
+
+}
+.knopka input{
+    display: none;
+}
+.knopka button{
+    display: none;
+}
+
+.H1{
+    margin-left: 70%;
+}
+
+.obshi{
+    margin-left: 10%;
+}
+.obshi:nth-child(2){
+    display: none;
+}
+.obshi:nth-child(3){
+    display: none;
+}
+
+.emblems img{
+    width: 160%;
+    margin-left: 50px;
+    padding-left: 30px;
+}
+
+.finish{
+    padding-right: 200%;
+}
+
+.two:nth-child(2){
+    display: none;
+}
+.two:nth-child(3){
+    display: none;
+}
+.three{
+    display: none;
+}
+.two{
+    width: 100%;
+    margin-left: 55px;
+}
+
+.four{
+    width: 200%;
+}
+.four p{
+    margin-right: 90px;
+}
+}

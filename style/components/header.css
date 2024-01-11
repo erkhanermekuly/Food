@@ -1,0 +1,143 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    background-color: brown;
+}
+
+.header_left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+    color: #fff;
+}
+
+.header_left a{
+    color: #fff;    
+    text-decoration: none;
+    margin-left: 10px;
+    transition: .4s;
+}
+
+.header_right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding-right: 50px;
+}
+
+.header_right a{
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+    transition: .4s;
+}
+.header_right a:hover{
+    color:#000 ;
+}
+.header_left a:hover{
+    color:#000 ;
+}
+
+
+
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top:-1px;
+    left: 0;
+    background-color: #fff;
+    z-index: 10;
+}
+
+
+
+.container_left img{
+    width: 30%;
+    height: 92%;
+    margin: 5px 0 0 10%
+}
+
+
+
+.container_center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 25%;
+    position: relative;
+}
+
+#burger-menu{
+    display: none;
+    padding: 10px 20px;
+    margin: 20px;
+    position: absolute;
+    top: 99px;
+    left: -85px;
+    background-color: #fff;
+    border-radius: 10px;
+
+}
+
+.menu-item{
+    margin-bottom: 20px;
+    padding: 0 20px 0 20px;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-bottom: 1px solid brown;
+    padding-bottom: 5 px;
+    font-weight: 400;
+
+}
+
+.menu-item p:hover{
+    color: #d20b55;
+    transition: .4s;
+}
+
+.open-menu{
+    display: block !important;
+}
+
+.container_center i{
+    margin-left: 10px;
+}
+.container_center a{
+    margin-left: 10%;
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    transition: .5s;
+}
+.container_center a:hover{
+    color: #d20b55;
+}
+
+
+.container_right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3%;
+}
+
+.container_right a{
+    margin-left: 10px;
+    color: #d20b55;
+}
+
+.container_right a:hover{
+    color: #000;
+}
+
+.container_right i{
+    transition: .6s;
+    margin-left: 5px;
+}
